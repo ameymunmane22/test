@@ -1,0 +1,6 @@
+conflict_id,topic,doc1_id,doc1_value,doc2_id,doc2_value,explanation
+C1,API Rate Limit,DOC-005,"5,000 requests/hour",DOC-017,"10,000 requests/hour",Version 1.0 vs Version 2.0 policy update.
+C2,Data Retention,DOC-014,30 days,DOC-003,90 days,"Older policy (2024) says 30 days, newer security guide (2026) updated to 90 days for SOC2."
+C3,Password Length,DOC-010,8 characters,DOC-003,12 characters,"Admin guide states 8 characters minimum, while the newer security guide enforces 12 characters."
+C4,Storage Limits (Professional Plan),DOC-004,500GB,DOC-016,1TB,"Subscription plans (2025) say 500GB, while Usage Limits (2026) state 1TB due to an infrastructure upgrade."
+C5,Refund Window,DOC-011,14 days,DOC-012,30 days,"FAQ limits refunds to 14 days, while Billing Policy allows 30 days. Direct unresolved contradiction."

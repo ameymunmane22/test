@@ -1,0 +1,21 @@
+doc_id,title,version,date,category,format
+DOC-001,Product User Manual,2.1,2026-01-15,Product,PDF
+DOC-002,API Documentation,2.1,2026-02-01,Technical,PDF
+DOC-003,Security and Access Management Guide,2.1,2026-03-10,Security,PDF
+DOC-004,Subscription Plans,2.0,2025-11-01,Billing,PDF
+DOC-005,Release Notes - Version 1.0,1.0,2024-05-15,Release,PDF
+DOC-006,Product Configuration Guide,2.1,2026-01-20,Technical,HTML
+DOC-007,Integration Guide,2.1,2026-02-15,Technical,HTML
+DOC-008,Troubleshooting Guide,2.1,2026-04-01,Support,HTML
+DOC-009,System Requirements and Compatibility,2.1,2026-01-10,Technical,HTML
+DOC-010,Enterprise Administration Guide,1.5,2025-01-10,Administration,HTML
+DOC-011,Frequently Asked Questions,2.1,2026-05-01,Support,TXT
+DOC-012,Billing and Payment Policy,2.0,2025-12-01,Billing,TXT
+DOC-013,Technical Support Handbook,2.1,2026-02-28,Support,TXT
+DOC-014,Data Retention and Privacy Policy,1.0,2024-06-01,Policy,TXT
+DOC-015,Service Level Agreement,2.0,2025-06-01,Policy,TXT
+DOC-016,Usage Limits and Quotas,2.1,2026-05-10,Billing,MD
+DOC-017,Release Notes - Version 2.0,2.0,2025-10-01,Release,MD
+DOC-018,Release Notes - Version 2.1,2.1,2026-01-05,Release,MD
+DOC-019,Incident Management and Service Availability,2.1,2026-03-01,Policy,MD
+DOC-020,Product Migration and Upgrade Guide,2.1,2026-02-10,Technical,MD

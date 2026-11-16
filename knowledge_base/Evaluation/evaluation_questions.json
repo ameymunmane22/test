@@ -1,0 +1,452 @@
+[
+    {
+        "question_id": "Q01",
+        "question": "What is the URL for the main dashboard?",
+        "question_category": "Direct Factual",
+        "expected_answer": "https://app.nexora.com/dashboard",
+        "relevant_document_ids": "DOC-001",
+        "relevant_sections": "Dashboard Navigation",
+        "expected_behavior": "Return exact URL."
+    },
+    {
+        "question_id": "Q02",
+        "question": "What header is required for API authentication?",
+        "question_category": "Direct Factual",
+        "expected_answer": "Authorization header with a valid Bearer token.",
+        "relevant_document_ids": "DOC-002",
+        "relevant_sections": "Authentication",
+        "expected_behavior": "Return exact authentication method."
+    },
+    {
+        "question_id": "Q03",
+        "question": "How much does the Starter Plan cost per month?",
+        "question_category": "Direct Factual",
+        "expected_answer": "$49/month",
+        "relevant_document_ids": "DOC-004",
+        "relevant_sections": "Plans Overview",
+        "expected_behavior": "Return the exact price."
+    },
+    {
+        "question_id": "Q04",
+        "question": "Which environments are required for the on-premises agent?",
+        "question_category": "Direct Factual",
+        "expected_answer": "Docker and Kubernetes (v1.24+).",
+        "relevant_document_ids": "DOC-006",
+        "relevant_sections": "Environment Setup",
+        "expected_behavior": "List the two required tools."
+    },
+    {
+        "question_id": "Q05",
+        "question": "What happens if my IdP clock is not synced?",
+        "question_category": "Direct Factual",
+        "expected_answer": "You may receive a 'SAML Assertion Failed' error.",
+        "relevant_document_ids": "DOC-008",
+        "relevant_sections": "Login Failures",
+        "expected_behavior": "Explain the SAML error."
+    },
+    {
+        "question_id": "Q06",
+        "question": "Is Internet Explorer supported?",
+        "question_category": "Direct Factual",
+        "expected_answer": "No, Internet Explorer is strictly not supported.",
+        "relevant_document_ids": "DOC-009",
+        "relevant_sections": "Supported Browsers",
+        "expected_behavior": "Clearly state it is not supported."
+    },
+    {
+        "question_id": "Q07",
+        "question": "What is the guaranteed response time for SEV-1 issues for Enterprise customers?",
+        "question_category": "Direct Factual",
+        "expected_answer": "1-hour initial response time.",
+        "relevant_document_ids": "DOC-013",
+        "relevant_sections": "Response Times",
+        "expected_behavior": "State 1-hour."
+    },
+    {
+        "question_id": "Q08",
+        "question": "Where are system status updates posted?",
+        "question_category": "Direct Factual",
+        "expected_answer": "status.nexora.com",
+        "relevant_document_ids": "DOC-019",
+        "relevant_sections": "Communications",
+        "expected_behavior": "Provide the status URL."
+    },
+    {
+        "question_id": "Q09",
+        "question": "What API endpoint is used to retrieve a list of users?",
+        "question_category": "Direct Factual",
+        "expected_answer": "GET /api/v2/users",
+        "relevant_document_ids": "DOC-002",
+        "relevant_sections": "Endpoints",
+        "expected_behavior": "Provide the exact GET endpoint."
+    },
+    {
+        "question_id": "Q10",
+        "question": "What is a 429 API error?",
+        "question_category": "Direct Factual",
+        "expected_answer": "Too Many Requests (Rate limit exceeded).",
+        "relevant_document_ids": "DOC-002",
+        "relevant_sections": "Error Codes",
+        "expected_behavior": "Define 429 error."
+    },
+    {
+        "question_id": "Q11",
+        "question": "Where do I go to build a fresh workflow pipeline?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Click the 'New Pipeline' button in the top right corner of the dashboard.",
+        "relevant_document_ids": "DOC-001",
+        "relevant_sections": "Dashboard Navigation",
+        "expected_behavior": "Map 'fresh' to 'new'."
+    },
+    {
+        "question_id": "Q12",
+        "question": "I need to get my API secret again, how do I do that?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Go to Settings -> API Keys and click 'Regenerate'.",
+        "relevant_document_ids": "DOC-011",
+        "relevant_sections": "FAQ",
+        "expected_behavior": "Map 'secret again' to 'Regenerate API key'."
+    },
+    {
+        "question_id": "Q13",
+        "question": "Can I hook this up to Slack?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Yes, Nexora integrates with Slack via the integrations tab of the admin console.",
+        "relevant_document_ids": "DOC-006",
+        "relevant_sections": "Integrations",
+        "expected_behavior": "Identify Slack integration."
+    },
+    {
+        "question_id": "Q14",
+        "question": "If I step down my subscription tier, when does it kick in?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Downgrading takes effect at the end of the current billing cycle.",
+        "relevant_document_ids": "DOC-004",
+        "relevant_sections": "Downgrades",
+        "expected_behavior": "Map 'step down' to 'Downgrade'."
+    },
+    {
+        "question_id": "Q15",
+        "question": "Do you guys sell my private information to advertisers?",
+        "question_category": "Paraphrased",
+        "expected_answer": "No, Nexora adheres to GDPR and CCPA and does not sell personal data.",
+        "relevant_document_ids": "DOC-014",
+        "relevant_sections": "Data Privacy",
+        "expected_behavior": "Address the privacy concern explicitly."
+    },
+    {
+        "question_id": "Q16",
+        "question": "What browser should I use to avoid compatibility problems?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Google Chrome, Mozilla Firefox, or Microsoft Edge (latest 2 versions).",
+        "relevant_document_ids": "DOC-009",
+        "relevant_sections": "Supported Browsers",
+        "expected_behavior": "List the supported browsers."
+    },
+    {
+        "question_id": "Q17",
+        "question": "If the system goes down entirely, what severity is that?",
+        "question_category": "Paraphrased",
+        "expected_answer": "SEV-1 (Critical)",
+        "relevant_document_ids": "DOC-019",
+        "relevant_sections": "Incident Severities",
+        "expected_behavior": "Identify SEV-1."
+    },
+    {
+        "question_id": "Q18",
+        "question": "How can I export my workflow data?",
+        "question_category": "Paraphrased",
+        "expected_answer": "You can export data in PDF, CSV, and JSON via the Custom Reporting feature.",
+        "relevant_document_ids": "DOC-001",
+        "relevant_sections": "Key Features",
+        "expected_behavior": "List export formats."
+    },
+    {
+        "question_id": "Q19",
+        "question": "When are bills usually sent out?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Invoices are generated on the 1st of every month.",
+        "relevant_document_ids": "DOC-012",
+        "relevant_sections": "Invoices",
+        "expected_behavior": "Provide billing date."
+    },
+    {
+        "question_id": "Q20",
+        "question": "What do I need to do to verify incoming webhook data?",
+        "question_category": "Paraphrased",
+        "expected_answer": "Compute the HMAC-SHA256 hash of the payload using your Webhook Secret.",
+        "relevant_document_ids": "DOC-007",
+        "relevant_sections": "Webhooks",
+        "expected_behavior": "Explain HMAC-SHA256 verification."
+    },
+    {
+        "question_id": "Q21",
+        "question": "If I have an Enterprise plan, what is my storage limit and how quickly will support respond to a critical issue?",
+        "question_category": "Multi-document",
+        "expected_answer": "Enterprise plan has 5TB+ storage (or 10TB+ per limits) and 1-hour response for critical issues.",
+        "relevant_document_ids": "DOC-004, DOC-013, DOC-016",
+        "relevant_sections": "Plans Overview, Response Times",
+        "expected_behavior": "Synthesize plan details and SLA."
+    },
+    {
+        "question_id": "Q22",
+        "question": "What are the differences in features and API limits between the Free and Starter plans?",
+        "question_category": "Multi-document",
+        "expected_answer": "Free: 1 seat, 5 workflows, basic support, 100 API calls/day. Starter: 5 seats, 20 workflows, email support, 10,000 API calls/day.",
+        "relevant_document_ids": "DOC-004, DOC-016",
+        "relevant_sections": "Plans Overview, Plan Restrictions",
+        "expected_behavior": "Compare both plans across two docs."
+    },
+    {
+        "question_id": "Q23",
+        "question": "I am upgrading to V2. Do I need to change my webhook URLs, and what is the new API rate limit?",
+        "question_category": "Multi-document",
+        "expected_answer": "V1 webhooks will be deprecated by Dec 2026. The new global API rate limit is 10,000 requests/hour.",
+        "relevant_document_ids": "DOC-020, DOC-017",
+        "relevant_sections": "Upgrading from V1 to V2, API Limits Updated",
+        "expected_behavior": "Combine migration and release notes."
+    },
+    {
+        "question_id": "Q24",
+        "question": "Does Nexora support Salesforce integration, and if so, how often does it sync?",
+        "question_category": "Multi-document",
+        "expected_answer": "Yes, it integrates with Salesforce. By default, it syncs every 15 minutes.",
+        "relevant_document_ids": "DOC-006, DOC-007",
+        "relevant_sections": "Integrations, Data Synchronization",
+        "expected_behavior": "Confirm integration and state sync time."
+    },
+    {
+        "question_id": "Q25",
+        "question": "I want to export my audit logs. What formats are supported and how long do you keep the logs?",
+        "question_category": "Multi-document",
+        "expected_answer": "Logs can be exported in CSV or JSON. They are retained for 90 days (per security guide) or 30 days (per older policy).",
+        "relevant_document_ids": "DOC-001, DOC-003, DOC-014",
+        "relevant_sections": "Key Features, Data Retention",
+        "expected_behavior": "Synthesize export formats and retention conflict."
+    },
+    {
+        "question_id": "Q26",
+        "question": "If I downgrade my Professional plan, will my storage limit be affected, and when does the downgrade happen?",
+        "question_category": "Multi-document",
+        "expected_answer": "Downgrade happens at the end of the billing cycle. Your storage will decrease from 500GB/1TB to whatever the new plan supports.",
+        "relevant_document_ids": "DOC-004, DOC-016",
+        "relevant_sections": "Downgrades, Storage Limits",
+        "expected_behavior": "Combine downgrade timing and storage limits."
+    },
+    {
+        "question_id": "Q27",
+        "question": "Is MFA required, and what happens if I forget my password?",
+        "question_category": "Multi-document",
+        "expected_answer": "MFA is mandatory for Enterprise. Admins can invite/reset you via email to get a temporary password.",
+        "relevant_document_ids": "DOC-003, DOC-010",
+        "relevant_sections": "Multi-Factor Authentication, User Management",
+        "expected_behavior": "Combine MFA policy and admin management."
+    },
+    {
+        "question_id": "Q28",
+        "question": "What do I do if I get a 429 error, and what is the SLA for uptime?",
+        "question_category": "Multi-document",
+        "expected_answer": "A 429 means rate limit exceeded; check X-RateLimit-Reset. The SLA guarantees 99.9% uptime.",
+        "relevant_document_ids": "DOC-002, DOC-008, DOC-015",
+        "relevant_sections": "Error Codes, API Errors, Uptime Commitment",
+        "expected_behavior": "Combine API error handling and SLA policy."
+    },
+    {
+        "question_id": "Q29",
+        "question": "How many workflows can a Starter plan have, and what is the monthly cost?",
+        "question_category": "Multi-document",
+        "expected_answer": "20 workflows. Cost is $49/month.",
+        "relevant_document_ids": "DOC-004",
+        "relevant_sections": "Plans Overview",
+        "expected_behavior": "Pull two facts from one/two docs."
+    },
+    {
+        "question_id": "Q30",
+        "question": "What payment methods are accepted, and is there a credit if uptime drops below 99.9%?",
+        "question_category": "Multi-document",
+        "expected_answer": "Visa, MasterCard, Amex, Wire transfers. Yes, a 10% service credit is provided if uptime falls below 99.9%.",
+        "relevant_document_ids": "DOC-012, DOC-015",
+        "relevant_sections": "Payment Methods, Service Credits",
+        "expected_behavior": "Combine billing policy and SLA credits."
+    },
+    {
+        "question_id": "Q31",
+        "question": "What is the global API rate limit?",
+        "question_category": "Conflicting",
+        "expected_answer": "V1.0 is 5,000/hour. V2.0 is 10,000/hour.",
+        "relevant_document_ids": "DOC-005, DOC-017",
+        "relevant_sections": "Rate Limits, API Limits Updated",
+        "expected_behavior": "Detect version conflict and state both."
+    },
+    {
+        "question_id": "Q32",
+        "question": "How long are audit logs and user data retained?",
+        "question_category": "Conflicting",
+        "expected_answer": "The older Privacy Policy states 30 days, but the newer Security Guide states 90 days.",
+        "relevant_document_ids": "DOC-014, DOC-003",
+        "relevant_sections": "Data Retention, Data Retention",
+        "expected_behavior": "Detect date/policy conflict."
+    },
+    {
+        "question_id": "Q33",
+        "question": "What is the minimum password length requirement?",
+        "question_category": "Conflicting",
+        "expected_answer": "The Admin Guide says 8 characters, but the Security Guide requires 12 characters.",
+        "relevant_document_ids": "DOC-010, DOC-003",
+        "relevant_sections": "Password Policy, Password Policy",
+        "expected_behavior": "Detect contradictory policies."
+    },
+    {
+        "question_id": "Q34",
+        "question": "How much storage does the Professional Plan include?",
+        "question_category": "Conflicting",
+        "expected_answer": "The Subscription Plans document states 500GB, but the Usage Limits document states 1TB due to an upgrade.",
+        "relevant_document_ids": "DOC-004, DOC-016",
+        "relevant_sections": "Plans Overview, Storage Limits",
+        "expected_behavior": "Detect infrastructure upgrade conflict."
+    },
+    {
+        "question_id": "Q35",
+        "question": "How many days do I have to request a refund?",
+        "question_category": "Conflicting",
+        "expected_answer": "The FAQ says 14 days, but the Billing Policy says 30 days.",
+        "relevant_document_ids": "DOC-011, DOC-012",
+        "relevant_sections": "FAQ, Refunds",
+        "expected_behavior": "Detect direct unresolved contradiction."
+    },
+    {
+        "question_id": "Q36",
+        "question": "What is the rate limit for Version 1.0 of the platform?",
+        "question_category": "Version-sensitive",
+        "expected_answer": "5,000 requests per hour.",
+        "relevant_document_ids": "DOC-005",
+        "relevant_sections": "Rate Limits",
+        "expected_behavior": "Retrieve V1 specific limit."
+    },
+    {
+        "question_id": "Q37",
+        "question": "If I am on Version 2.0, what is my rate limit?",
+        "question_category": "Version-sensitive",
+        "expected_answer": "10,000 requests per hour.",
+        "relevant_document_ids": "DOC-017",
+        "relevant_sections": "API Limits Updated",
+        "expected_behavior": "Retrieve V2 specific limit."
+    },
+    {
+        "question_id": "Q38",
+        "question": "Is my Professional plan storage 500GB or 1TB?",
+        "question_category": "Conflicting",
+        "expected_answer": "It depends on the document; the original plan stated 500GB, but a recent upgrade in the Usage Limits doc provides 1TB.",
+        "relevant_document_ids": "DOC-004, DOC-016",
+        "relevant_sections": "Plans Overview, Storage Limits",
+        "expected_behavior": "Explicitly ask the model to resolve the specific conflict."
+    },
+    {
+        "question_id": "Q39",
+        "question": "How do I log in?",
+        "question_category": "Ambiguous",
+        "expected_answer": "Please specify if you are an admin configuring SSO, or an end user using the dashboard.",
+        "relevant_document_ids": "DOC-001, DOC-003, DOC-008",
+        "relevant_sections": "Various",
+        "expected_behavior": "Ask for clarification on role."
+    },
+    {
+        "question_id": "Q40",
+        "question": "What is the limit?",
+        "question_category": "Ambiguous",
+        "expected_answer": "Are you referring to the API rate limit, the storage limit, or user seats?",
+        "relevant_document_ids": "DOC-016, DOC-005",
+        "relevant_sections": "Various",
+        "expected_behavior": "Ask for clarification on what limit."
+    },
+    {
+        "question_id": "Q41",
+        "question": "How much does it cost?",
+        "question_category": "Ambiguous",
+        "expected_answer": "Which subscription plan are you inquiring about? (Starter, Pro, Enterprise)",
+        "relevant_document_ids": "DOC-004",
+        "relevant_sections": "Plans Overview",
+        "expected_behavior": "Ask for clarification on plan."
+    },
+    {
+        "question_id": "Q42",
+        "question": "How do I fix the error?",
+        "question_category": "Ambiguous",
+        "expected_answer": "Which error code or message are you receiving? (e.g., 429, 401, SAML Assertion Failed)",
+        "relevant_document_ids": "DOC-002, DOC-008",
+        "relevant_sections": "Various",
+        "expected_behavior": "Ask for specific error."
+    },
+    {
+        "question_id": "Q43",
+        "question": "Where do I configure settings?",
+        "question_category": "Ambiguous",
+        "expected_answer": "Are you referring to environment settings, integration settings, or personal profile settings?",
+        "relevant_document_ids": "DOC-006, DOC-011",
+        "relevant_sections": "Various",
+        "expected_behavior": "Ask for clarification on type of settings."
+    },
+    {
+        "question_id": "Q44",
+        "question": "When is the maintenance?",
+        "question_category": "Ambiguous",
+        "expected_answer": "The documentation mentions routine maintenance every third weekend, but do you mean API downtime or a specific upgrade window?",
+        "relevant_document_ids": "Various",
+        "relevant_sections": "Various",
+        "expected_behavior": "Clarify which maintenance."
+    },
+    {
+        "question_id": "Q45",
+        "question": "Who is the CEO of Nexora Technologies?",
+        "question_category": "Unanswerable",
+        "expected_answer": "I cannot answer this question as the information is not present in the provided documents.",
+        "relevant_document_ids": "None",
+        "relevant_sections": "None",
+        "expected_behavior": "Return clear not-found response."
+    },
+    {
+        "question_id": "Q46",
+        "question": "What is the physical address of the company headquarters?",
+        "question_category": "Unanswerable",
+        "expected_answer": "The documentation does not provide the physical address of the headquarters.",
+        "relevant_document_ids": "None",
+        "relevant_sections": "None",
+        "expected_behavior": "Return clear not-found response."
+    },
+    {
+        "question_id": "Q47",
+        "question": "Does Nexora support integration with Microsoft Teams?",
+        "question_category": "Unanswerable",
+        "expected_answer": "The documentation mentions Salesforce, Jira, and Slack integrations, but does not state support for Microsoft Teams.",
+        "relevant_document_ids": "DOC-006",
+        "relevant_sections": "Integrations",
+        "expected_behavior": "Return clear not-found response or state it is not listed."
+    },
+    {
+        "question_id": "Q48",
+        "question": "Can I pay for my subscription using Bitcoin?",
+        "question_category": "Unanswerable",
+        "expected_answer": "No, the accepted payment methods are Visa, MasterCard, American Express, and wire transfers. Bitcoin is not mentioned.",
+        "relevant_document_ids": "DOC-012",
+        "relevant_sections": "Payment Methods",
+        "expected_behavior": "Return not supported based on provided exhaustive list."
+    },
+    {
+        "question_id": "Q49",
+        "question": "What happens if I exceed 10TB of storage on the Enterprise plan?",
+        "question_category": "Unanswerable",
+        "expected_answer": "The documentation states Enterprise plans have 10TB+ custom storage, but it does not specify what happens if that limit is exceeded.",
+        "relevant_document_ids": "DOC-016",
+        "relevant_sections": "Storage Limits",
+        "expected_behavior": "Explain missing information."
+    },
+    {
+        "question_id": "Q50",
+        "question": "Are there any volume discounts for annual billing?",
+        "question_category": "Unanswerable",
+        "expected_answer": "The provided documentation does not mention annual billing or volume discounts.",
+        "relevant_document_ids": "DOC-004, DOC-012",
+        "relevant_sections": "Various",
+        "expected_behavior": "Return clear not-found response."
+    }
+]
